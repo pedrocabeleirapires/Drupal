@@ -73,3 +73,4 @@ package-lock.json
 
 # Ignore .env in custom theam
 /web/themes/custom/*/.env
+/.gitattributes

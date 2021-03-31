@@ -58,7 +58,7 @@ function js () {
 // Static Server + watching scss/html files
 function serve () {
   browserSync.init({
-    proxy: '127.0.0.1/drupal/web/',
+    proxy: 'http://localhost:8888',
   })
 
   gulp.watch([paths.scss.watch, paths.scss.bootstrap], styles).on('change', browserSync.reload)
