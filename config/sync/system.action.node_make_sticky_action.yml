@@ -1,0 +1,13 @@
+uuid: 59e4ac98-1541-4373-a930-aa73c90d2091
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
+id: node_make_sticky_action
+label: 'Tornar o conteúdo destacado'
+type: node
+plugin: node_make_sticky_action
+configuration: {  }

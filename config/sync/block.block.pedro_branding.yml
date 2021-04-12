@@ -1,0 +1,25 @@
+uuid: 52a2402d-30b8-49c2-87fe-e32690edea87
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pedro
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: pedro_branding
+theme: pedro
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Imagem de marca do sítio'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

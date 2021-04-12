@@ -1,0 +1,14 @@
+uuid: 1faab131-c1ab-4639-a424-39657276f9fa
+name: 'João Sena'
+mail: admin@admin
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: pt-pt
+default_langcode: pt-pt
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

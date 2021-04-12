@@ -1,0 +1,22 @@
+uuid: 0f3815ae-b6d0-4f59-909c-0d9494c2b136
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pedro
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: pedro_content
+theme: pedro
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  provider: system
+  label_display: '0'
+visibility: {  }

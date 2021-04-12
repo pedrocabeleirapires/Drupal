@@ -1,0 +1,20 @@
+uuid: 46c6413c-62a0-47ce-b074-693b67957c1d
+langcode: pt-pt
+status: true
+dependencies:
+  theme:
+    - pedro
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: pedro_local_actions
+theme: pedro
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Ações principais do administrador'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 910605b1-73a1-423a-a965-cc1267bd2098
+langcode: pt-pt
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M_Bh81osDyUQ4wV0GgU_NdBNqkzM87sLxjaCdFj9mnw
+id: account
+label: 'Menu de utilizador'
+description: 'Ligações relacionadas com a conta de utilizador ativa'
+locked: true
