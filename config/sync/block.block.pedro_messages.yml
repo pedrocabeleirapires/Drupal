@@ -1,0 +1,22 @@
+uuid: afca841a-8fee-4be6-9108-4383b4edf338
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pedro
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: pedro_messages
+theme: pedro
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de estado'
+  provider: system
+  label_display: '0'
+visibility: {  }

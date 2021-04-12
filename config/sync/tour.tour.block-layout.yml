@@ -1,0 +1,51 @@
+uuid: fa884aaf-39ba-4289-a862-1488f1a0431d
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - block
+_core:
+  default_config_hash: p0RFIRt3fQULgsg3B2wHgLjJqxliqEIcDCxve9Yn0rU
+id: block-layout
+label: 'Página de disposição de bloco'
+module: block
+routes:
+  -
+    route_name: block.admin_display
+tips:
+  block-layout:
+    id: block-layout
+    plugin: text
+    label: 'Block Layout'
+    body: 'Blocks are boxes of content rendered into an area, or region, of a web page that can be displayed in regions (such as footer or sidebar) on your page.'
+    weight: 1
+  place-block:
+    id: place-block
+    plugin: text
+    label: 'Colocar Blocos'
+    body: 'Any custom or contributed block can be added to a particular region by clicking on a button Place block. A new block can also be created by clicking on Place Block'
+    weight: 2
+    attributes:
+      data-class: button--small
+  block-region:
+    id: block-region
+    plugin: text
+    label: 'Região do Bloco'
+    body: 'Atribua ou altere a região de um bloco clicando aqui. Uma lista suspensa com todas as regiões aparecerá. Pode colocar um bloco em várias regiões.'
+    weight: 3
+    attributes:
+      data-class: block-region-select
+  configure-block:
+    id: configure-block
+    plugin: text
+    label: 'Configurar Bloco'
+    body: 'By Clicking on "Configure" you can go ahead and edit the contents of the block, deal with the visibility settings and even change the placement of where it is on your theme.'
+    weight: 4
+    attributes:
+      data-class: dropbutton-widget
+  custom-block-library:
+    id: custom-block-library
+    plugin: text
+    label: 'Biblioteca de Blocos Personalizados'
+    body: 'The block management screen also has an another tab on the top which is used to add Custom blocks. The name of the tab is "Custom block library". This tab ultimately provides a link to add custom blocks.'
+    weight: 5

@@ -1,0 +1,22 @@
+uuid: 6f38e3e1-9016-4d3c-851b-c2118b3885f4
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pedro
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: pedro_breadcrumbs
+theme: pedro
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Navegação estruturada'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 2c809824-4ae3-4c9f-881b-61f988a668f2
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - pedro
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: pedro_help
+theme: pedro
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  provider: help
+  label_display: '0'
+visibility: {  }

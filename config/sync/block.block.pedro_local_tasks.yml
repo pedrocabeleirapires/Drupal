@@ -1,0 +1,22 @@
+uuid: 4f6a29a9-dd61-4be4-9ef8-db4606d54a6a
+langcode: pt-pt
+status: true
+dependencies:
+  theme:
+    - pedro
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: pedro_local_tasks
+theme: pedro
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Separadores
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
