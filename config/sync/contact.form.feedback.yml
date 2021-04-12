@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 uuid: 048da14f-6ea4-4143-9127-0f8de9da33db
+=======
+uuid: 6df8b8d5-6ab6-4265-9a71-676533f2514f
+>>>>>>> 8a51aa352a4ff319a6733dc820fcfa7f17ebedf3
 langcode: pt-pt
 status: true
 dependencies: {  }
@@ -7,7 +11,11 @@ _core:
 id: feedback
 label: 'Opinião sobre o sítio da Web'
 recipients:
+<<<<<<< HEAD
   - admin@admin
+=======
+  - pedrocabeleirapires@gmail.com
+>>>>>>> 8a51aa352a4ff319a6733dc820fcfa7f17ebedf3
 reply: ''
 weight: 0
 message: 'A sua mensagem foi enviada.'

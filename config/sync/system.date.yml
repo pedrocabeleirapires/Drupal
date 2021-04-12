@@ -1,5 +1,9 @@
 country:
+<<<<<<< HEAD
   default: PT
+=======
+  default: ''
+>>>>>>> 8a51aa352a4ff319a6733dc820fcfa7f17ebedf3
 first_day: 0
 timezone:
   default: Europe/Lisbon
