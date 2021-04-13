@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-uuid: 1faab131-c1ab-4639-a424-39657276f9fa
-name: 'João Sena'
-mail: admin@admin
-=======
 uuid: 6dc20407-e69a-42ed-b15e-08b285b6a96c
 name: Pedro
 mail: pedrocabeleirapires@gmail.com
->>>>>>> 8a51aa352a4ff319a6733dc820fcfa7f17ebedf3
 slogan: ''
 page:
   403: ''

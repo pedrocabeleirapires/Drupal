@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-uuid: 2367ecf5-6e46-418f-ab0f-a943268076a7
-=======
 uuid: a9689de5-d692-4b02-9fb1-fb298364b69c
->>>>>>> 8a51aa352a4ff319a6733dc820fcfa7f17ebedf3
 langcode: pt-pt
 status: true
 dependencies: {  }
