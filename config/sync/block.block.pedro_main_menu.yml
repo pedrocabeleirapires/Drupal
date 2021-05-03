@@ -1,6 +1,6 @@
 uuid: 32e6b824-6dce-43e7-9520-3e89a6a2c3e9
 langcode: pt-pt
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main

@@ -1,0 +1,19 @@
+uuid: 3b079461-a01a-4d22-b478-7bd5a25a17d8
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_horario
+    - node.type.balcao
+id: node.balcao.field_horario
+field_name: field_horario
+entity_type: node
+bundle: balcao
+label: Horário
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

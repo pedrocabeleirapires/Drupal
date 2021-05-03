@@ -1,0 +1,11 @@
+uuid: 3b8ed24d-35de-4548-8c9d-72440fa1ca94
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - node.type.viatura
+id: node.viatura
+target_entity_type_id: node
+target_bundle: viatura
+default_langcode: site_default
+language_alterable: false

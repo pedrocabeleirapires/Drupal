@@ -1,0 +1,66 @@
+uuid: 0348b83c-2e55-4750-b406-d95b827aa745
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.balcao.body
+    - field.field.node.balcao.field_horario
+    - field.field.node.balcao.field_local
+    - field.field.node.balcao.field_localizacao
+    - field.field.node.balcao.field_viaturab
+    - node.type.balcao
+  module:
+    - text
+    - user
+id: node.balcao.full
+targetEntityType: node
+bundle: balcao
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_horario:
+    weight: 103
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_local:
+    weight: 104
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_localizacao:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_viaturab:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: 4612cb13-f3cc-406a-94e8-7ef92286f2b4
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.grupo
+id: taxonomy_term.grupo
+target_entity_type_id: taxonomy_term
+target_bundle: grupo
+default_langcode: site_default
+language_alterable: false

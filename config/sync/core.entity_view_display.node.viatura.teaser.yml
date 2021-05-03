@@ -1,0 +1,41 @@
+uuid: d46c9654-110c-4e65-bea9-00d8c9048243
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.viatura.body
+    - field.field.node.viatura.field_autonomia
+    - field.field.node.viatura.field_caracteristicas
+    - field.field.node.viatura.field_grupo
+    - field.field.node.viatura.field_image
+    - field.field.node.viatura.field_imagens
+    - node.type.viatura
+  module:
+    - text
+    - user
+id: node.viatura.teaser
+targetEntityType: node
+bundle: viatura
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_autonomia: true
+  field_caracteristicas: true
+  field_grupo: true
+  field_image: true
+  field_imagens: true
+  langcode: true

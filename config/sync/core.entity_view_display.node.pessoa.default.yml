@@ -1,0 +1,29 @@
+uuid: f64b1a0c-2dbb-48cc-bfad-5b4ca19bb911
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.field.node.pessoa.body
+    - node.type.pessoa
+  module:
+    - text
+    - user
+id: node.pessoa.default
+targetEntityType: node
+bundle: pessoa
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

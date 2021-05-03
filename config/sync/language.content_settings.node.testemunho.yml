@@ -1,0 +1,11 @@
+uuid: fe658276-631c-4698-bd61-65d846960079
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - node.type.testemunho
+id: node.testemunho
+target_entity_type_id: node
+target_bundle: testemunho
+default_langcode: site_default
+language_alterable: false

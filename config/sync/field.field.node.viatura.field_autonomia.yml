@@ -1,0 +1,23 @@
+uuid: 8d75079b-91c6-4926-9518-fc913545460e
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autonomia
+    - node.type.viatura
+id: node.viatura.field_autonomia
+field_name: field_autonomia
+entity_type: node
+bundle: viatura
+label: Autonomia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

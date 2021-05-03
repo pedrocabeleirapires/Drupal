@@ -1,0 +1,23 @@
+uuid: 1abd0ba6-e457-4c19-bc67-823cafc27f8a
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_stars
+    - node.type.testemunho
+id: node.testemunho.field_stars
+field_name: field_stars
+entity_type: node
+bundle: testemunho
+label: Stars
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 5
+  prefix: ''
+  suffix: ''
+field_type: integer

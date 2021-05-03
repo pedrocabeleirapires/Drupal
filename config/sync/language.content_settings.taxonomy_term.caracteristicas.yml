@@ -1,0 +1,11 @@
+uuid: ffecf793-6e0b-41b7-b2b6-7ba9beb28a52
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.caracteristicas
+id: taxonomy_term.caracteristicas
+target_entity_type_id: taxonomy_term
+target_bundle: caracteristicas
+default_langcode: site_default
+language_alterable: false

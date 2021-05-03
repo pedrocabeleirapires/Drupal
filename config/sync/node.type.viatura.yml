@@ -1,0 +1,18 @@
+uuid: 81f699e3-079d-411d-866b-2a52caada93f
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Viatura
+type: viatura
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

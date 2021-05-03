@@ -1,0 +1,18 @@
+uuid: 39dc5d8a-e506-4539-bd75-7c3b4f37792a
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - node.type.pessoa
+id: node.pessoa.title
+field_name: title
+entity_type: node
+bundle: pessoa
+label: Nome
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

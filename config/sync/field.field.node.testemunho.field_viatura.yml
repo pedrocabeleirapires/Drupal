@@ -1,0 +1,29 @@
+uuid: f2d715fe-8114-4a58-a4a5-61f39fdfbf15
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_viatura
+    - node.type.testemunho
+    - node.type.viatura
+id: node.testemunho.field_viatura
+field_name: field_viatura
+entity_type: node
+bundle: testemunho
+label: Viatura
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      viatura: viatura
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

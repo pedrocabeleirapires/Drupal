@@ -1,0 +1,39 @@
+uuid: 0e126909-941f-4f2b-a023-14772720591a
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testemunho.body
+    - field.field.node.testemunho.field_image
+    - field.field.node.testemunho.field_pessoa
+    - field.field.node.testemunho.field_stars
+    - field.field.node.testemunho.field_viatura
+    - node.type.testemunho
+  module:
+    - text
+    - user
+id: node.testemunho.teaser
+targetEntityType: node
+bundle: testemunho
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
+  field_pessoa: true
+  field_stars: true
+  field_viatura: true
+  langcode: true

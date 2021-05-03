@@ -1,0 +1,29 @@
+uuid: 6cb2cac9-ed54-4ce9-83c4-6abbbcea5db4
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_viaturab
+    - node.type.balcao
+    - node.type.viatura
+id: node.balcao.field_viaturab
+field_name: field_viaturab
+entity_type: node
+bundle: balcao
+label: ViaturaB
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      viatura: viatura
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

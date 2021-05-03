@@ -1,0 +1,18 @@
+uuid: 556e0937-8737-42d0-83c6-d84f02ee8948
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Slideshow
+type: slideshow
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

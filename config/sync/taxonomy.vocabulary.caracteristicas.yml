@@ -1,0 +1,8 @@
+uuid: d70c7536-4a01-461a-b030-4d78c034b09d
+langcode: pt-pt
+status: true
+dependencies: {  }
+name: caracteristicas
+vid: caracteristicas
+description: ''
+weight: 0

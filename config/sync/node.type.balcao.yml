@@ -1,0 +1,18 @@
+uuid: abc41b40-4cb2-4dc0-9c69-521d12437d76
+langcode: pt-pt
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Balcão
+type: balcao
+description: 'Informações dos balcões existentes'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

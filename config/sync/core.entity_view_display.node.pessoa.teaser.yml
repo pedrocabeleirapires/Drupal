@@ -1,0 +1,31 @@
+uuid: 6189b0ea-8ad6-4710-9412-b196ca134108
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pessoa.body
+    - node.type.pessoa
+  module:
+    - text
+    - user
+id: node.pessoa.teaser
+targetEntityType: node
+bundle: pessoa
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,19 @@
+uuid: 614fb07c-f4df-4539-9ba6-672956109d19
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caracteristicas
+    - node.type.viatura
+id: node.viatura.field_caracteristicas
+field_name: field_caracteristicas
+entity_type: node
+bundle: viatura
+label: Características
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

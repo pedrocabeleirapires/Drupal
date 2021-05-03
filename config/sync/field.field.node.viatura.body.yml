@@ -1,0 +1,23 @@
+uuid: 61be9c0f-feef-40ae-9f82-e84897d5bc1c
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.viatura
+  module:
+    - text
+id: node.viatura.body
+field_name: body
+entity_type: node
+bundle: viatura
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

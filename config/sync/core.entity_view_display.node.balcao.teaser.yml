@@ -1,0 +1,39 @@
+uuid: ce34a836-e954-4096-bc0d-792c1b5e4576
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.balcao.body
+    - field.field.node.balcao.field_horario
+    - field.field.node.balcao.field_local
+    - field.field.node.balcao.field_localizacao
+    - field.field.node.balcao.field_viaturab
+    - node.type.balcao
+  module:
+    - text
+    - user
+id: node.balcao.teaser
+targetEntityType: node
+bundle: balcao
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_horario: true
+  field_local: true
+  field_localizacao: true
+  field_viaturab: true
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: 75e14437-5d33-401a-a4b2-8d67fbbed5f6
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - node.type.balcao
+id: node.balcao
+target_entity_type_id: node
+target_bundle: balcao
+default_langcode: site_default
+language_alterable: false

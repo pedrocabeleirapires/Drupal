@@ -1,0 +1,11 @@
+uuid: f93eee83-dfea-4651-9162-8850ef329094
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - node.type.pessoa
+id: node.pessoa
+target_entity_type_id: node
+target_bundle: pessoa
+default_langcode: site_default
+language_alterable: false
