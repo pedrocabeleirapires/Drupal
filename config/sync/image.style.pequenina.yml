@@ -1,0 +1,14 @@
+uuid: 40fd1560-a4bd-4cb3-ae3d-69d529cd24fc
+langcode: pt-pt
+status: true
+dependencies: {  }
+name: pequenina
+label: Pequenina
+effects:
+  907db646-f2f8-4509-8019-9c3af021a342:
+    uuid: 907db646-f2f8-4509-8019-9c3af021a342
+    id: image_resize
+    weight: 1
+    data:
+      width: 100
+      height: 100

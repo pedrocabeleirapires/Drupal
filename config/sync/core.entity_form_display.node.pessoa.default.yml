@@ -3,32 +3,29 @@ langcode: pt-pt
 status: true
 dependencies:
   config:
-    - field.field.node.pessoa.body
+    - field.field.node.pessoa.field_e
     - node.type.pessoa
   module:
     - path
-    - text
 id: node.pessoa.default
 targetEntityType: node
 bundle: pessoa
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 121
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
-    third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_e:
+    weight: 122
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
   langcode:
     type: language_select
     weight: 2

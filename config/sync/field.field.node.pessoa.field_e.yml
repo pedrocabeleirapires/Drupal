@@ -1,0 +1,19 @@
+uuid: 9dee2e73-3101-4112-b56e-3c47fa909224
+langcode: pt-pt
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e
+    - node.type.pessoa
+id: node.pessoa.field_e
+field_name: field_e
+entity_type: node
+bundle: pessoa
+label: E-mail
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

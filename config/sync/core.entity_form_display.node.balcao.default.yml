@@ -59,13 +59,9 @@ content:
     region: content
   field_viaturab:
     weight: 125
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: options_buttons
     region: content
   langcode:
     type: language_select

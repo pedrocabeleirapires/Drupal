@@ -3,22 +3,21 @@ langcode: pt-pt
 status: true
 dependencies:
   config:
-    - field.field.node.pessoa.body
+    - field.field.node.pessoa.field_e
     - node.type.pessoa
   module:
-    - text
     - user
 id: node.pessoa.default
 targetEntityType: node
 bundle: pessoa
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 101
+  field_e:
+    weight: 102
+    label: above
     settings: {  }
     third_party_settings: {  }
+    type: basic_string
     region: content
   links:
     weight: 100

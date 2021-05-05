@@ -4,28 +4,20 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.pessoa.body
+    - field.field.node.pessoa.field_e
     - node.type.pessoa
   module:
-    - text
     - user
 id: node.pessoa.teaser
 targetEntityType: node
 bundle: pessoa
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    region: content
   links:
     weight: 100
     settings: {  }
     third_party_settings: {  }
     region: content
 hidden:
+  field_e: true
   langcode: true

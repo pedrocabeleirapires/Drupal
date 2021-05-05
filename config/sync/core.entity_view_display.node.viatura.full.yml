@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.viatura.field_grupo
     - field.field.node.viatura.field_image
     - field.field.node.viatura.field_imagens
+    - image.style.pequenina
     - node.type.viatura
   module:
     - image
@@ -64,7 +65,7 @@ content:
     weight: 105
     label: above
     settings:
-      image_style: ''
+      image_style: pequenina
       image_link: ''
     third_party_settings: {  }
     type: image
